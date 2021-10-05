@@ -1,0 +1,87 @@
+﻿<Window x:Class="WpfApp5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="772.833" Width="1018.333">
+    <Grid Background="#FF26282B" Margin="-4,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="97*"/>
+            <ColumnDefinition Width="917*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Margin="0,0,0,684" Background="#FF33383D">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Label Content="&#xD;&#xA; Game Bar" HorizontalAlignment="Left" Width="133" Margin="10,0,-43,42" FontSize="13" FontStyle="Italic" FontWeight="Bold" Background="Transparent" Foreground="#FFBDBCBD"/>
+        </Grid>
+
+
+
+        <Grid Margin="0,58,0,649" Background="#FF1E2125" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+        </Grid>
+
+
+
+
+
+        <Grid Margin="5,0,0,684" Background="#FF26282B" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+        </Grid>
+        <Grid Margin="0,58,0,138" Background="#FF202326">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+        </Grid>
+        <Grid Margin="0,609,0,69" Background="#FF33383D">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+        </Grid>
+        <Grid Margin="0,678,0,0" Background="#FF212327">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+        </Grid>
+        <DatePicker HorizontalAlignment="Left" Height="0" Margin="-73,276,0,0" VerticalAlignment="Top" Width="2"/>
+        <Grid x:Name="GridIgri" Margin="0,93,0,0" Grid.Column="1" HorizontalAlignment="Right" Width="912">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+        </Grid>
+        <TextBlock Margin="17,71,13,635" TextDecorations="{x:Null}" FontSize="20" Foreground="Black">
+         <Hyperlink NavigateUri="page2.xaml">Steam</Hyperlink>
+
+        </TextBlock>
+    </Grid>
+</Window>
